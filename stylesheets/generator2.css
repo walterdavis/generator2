@@ -1,0 +1,135 @@
+label, input {
+	font-size: 11px;
+	margin-right: .5em;
+}
+
+.field label {
+	display: block;
+}
+
+.field input {
+	width: 300px;
+}
+
+fieldset {
+	margin: 13px -34px;
+	border: 8px solid #ddd;
+	padding: 0 26px;
+	background-color: #efefef;
+	border-radius: 13px;
+}
+
+fieldset p {
+	position: relative;
+}
+
+body {
+	font: 13px/16px 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, sans-serif;
+	background-color: #eee;
+}
+
+.container {
+	width: 500px;
+	margin: 40px auto;
+	padding: 13px 86px;
+	background-color: #fff;
+	border-radius: 14px;
+}
+
+.btn {
+	text-decoration: none;
+	color: #fff;
+	background-color: #888;
+	border: 1px solid #888;
+	font-size: 11px;
+	border-radius: 13px;
+	padding: 3px 12px 4px;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
+	margin: 0;
+}
+
+.btn:hover, .btn.default:disabled, .btn.default:disabled:hover {
+	color: #333;
+	border-color: #ccc;
+	background-color: #ccc;
+}
+
+.btn.default:disabled, .btn.default:disabled:hover {
+	color: #888;
+	cursor: default;
+}
+
+.btn.default {
+	background-color: #679ad7;
+	border-color: #679ad7;
+}
+
+.btn.default:hover {
+	background-color: #b4d5ff;
+	border-color: #b4d5ff;
+}
+
+.rule-above {
+	padding-top: 1em;
+	margin-top: 1em;
+	border-top: 1px solid #ccc;
+}
+
+.rule-below {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+}
+
+.remove_model, .remove_field {
+	line-height: 1;
+	display: block;
+	width: 14px;
+	padding: 1px 0 3px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: #ccc;
+	color: #fff;
+	font-size: 10px;
+	position: absolute;
+	left: -20px;
+	top: 4px;
+}
+
+.remove_model {
+	top: -8px;
+	left: auto;
+	right: -20px;
+}
+
+.remove_model:hover, .remove_field:hover {
+	background-color: #666;
+}
+
+sup {
+	font-size: 60%;
+}
+
+.timestamps {
+	float: right;
+}
+
+.field_with_errors {
+	border: 2px solid #bb7a78;
+	background-color: #fef7e8;
+}
+
+footer {
+	text-align: center;
+	padding-top: 1.4em;
+	border-top: 1px solid #ccc;
+	font-size: 10px;
+	color:  #666;
+}
+
+fieldset p span {
+	display: block;
+}

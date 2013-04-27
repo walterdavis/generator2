@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Generator2</title>
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> -->
+  <link rel="stylesheet" href="stylesheets/generator2.css"/>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7/prototype.js"></script>
+  <script src="javascripts/inflection.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/generator2.js" type="text/javascript" charset="utf-8"></script>
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    <h1>Generator<sup>2</sup></h1>
+    <form action="http://scripty.walterdavisstudio.com/reflector.php" method="post" id="generator" accept-charset="utf-8">
+      <p id="application_name" class="field">
+        <label for="application">Application name</label>
+        <input name="application" id="application" placeholder="Folder name for your application" value=""/>
+      </p>
+      <p class="rule-below" id="lock"><label><input type="hidden" name="secure" value="0" /><input type="checkbox" name="secure" id="secure" value="1" />Secure</label></p>
+      <p id="add_model"><a href="#" class="btn add_model">New Model</a></p>
+      <p class="rule-above" id="generate"><input type="submit" class="btn default" id="commit" value="Generate"/></p>
+    </form>
+    <footer>
+      <p>Copyright ©2013 Walter Davis Studio. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
