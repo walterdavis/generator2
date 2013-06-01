@@ -87,7 +87,6 @@ document.observe('dom:loaded', function(){
   });
   document.on('click', 'a.remove_model', function(evt, elm){
     evt.stop();
-    var model = elm.up('fieldset').down('input.model');
     elm.up('fieldset').replace('');
     document.fire('update:pickers');
   });
